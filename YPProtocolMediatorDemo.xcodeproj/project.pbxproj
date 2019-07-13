@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D08FD1F22D9D3C7008D2E36 /* ModuleConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D08FD1E22D9D3C7008D2E36 /* ModuleConfig.json */; };
+		4D08FD2A22D9D6C1008D2E36 /* YPCommonLaunchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D08FD2922D9D6C1008D2E36 /* YPCommonLaunchTask.m */; };
 		4D1E59232274342600E984BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E59222274342600E984BC /* AppDelegate.m */; };
 		4D1E592B2274342600E984BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1E592A2274342600E984BC /* Assets.xcassets */; };
 		4D1E592E2274342600E984BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1E592C2274342600E984BC /* LaunchScreen.storyboard */; };
@@ -15,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D08FD1E22D9D3C7008D2E36 /* ModuleConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ModuleConfig.json; sourceTree = "<group>"; };
+		4D08FD2822D9D6C1008D2E36 /* YPCommonLaunchTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPCommonLaunchTask.h; sourceTree = "<group>"; };
+		4D08FD2922D9D6C1008D2E36 /* YPCommonLaunchTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPCommonLaunchTask.m; sourceTree = "<group>"; };
 		4D1E591E2274342600E984BC /* YPProtocolMediatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPProtocolMediatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1E59212274342600E984BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D1E59222274342600E984BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,6 +76,9 @@
 			children = (
 				4D1E59212274342600E984BC /* AppDelegate.h */,
 				4D1E59222274342600E984BC /* AppDelegate.m */,
+				4D08FD1E22D9D3C7008D2E36 /* ModuleConfig.json */,
+				4D08FD2822D9D6C1008D2E36 /* YPCommonLaunchTask.h */,
+				4D08FD2922D9D6C1008D2E36 /* YPCommonLaunchTask.m */,
 				4D1E592A2274342600E984BC /* Assets.xcassets */,
 				4D1E592C2274342600E984BC /* LaunchScreen.storyboard */,
 				4D1E592F2274342600E984BC /* Info.plist */,
@@ -147,6 +155,7 @@
 			files = (
 				4D1E592E2274342600E984BC /* LaunchScreen.storyboard in Resources */,
 				4D1E592B2274342600E984BC /* Assets.xcassets in Resources */,
+				4D08FD1F22D9D3C7008D2E36 /* ModuleConfig.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +193,7 @@
 			files = (
 				4D1E59312274342600E984BC /* main.m in Sources */,
 				4D1E59232274342600E984BC /* AppDelegate.m in Sources */,
+				4D08FD2A22D9D6C1008D2E36 /* YPCommonLaunchTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

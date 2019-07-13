@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+@class UIApplication;
 
 @protocol YPLaunchTaskDelegate <NSObject>
 
@@ -18,7 +19,7 @@
 - (void)runAppDidEnterBackground;
 - (void)runAppWillTerminate;
 - (void)runIrdetoSuccessAfter;
-- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options ;
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary *)options ;
 - (void)runAppDidRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
 - (void)runAppDidFailToRegisterForRemoteNotificationsWithError:(NSError *)error;
 

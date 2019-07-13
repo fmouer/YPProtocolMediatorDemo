@@ -1,0 +1,1 @@
+../../../../LocalPods/HomePage/Classes/YPHomePageModuleConfig.h

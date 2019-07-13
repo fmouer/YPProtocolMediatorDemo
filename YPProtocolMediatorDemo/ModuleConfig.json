@@ -1,0 +1,11 @@
+{
+    "YPLoginModuleConfig" : {
+        "loginButtonTitle" : "点击进行登录",
+        "quitLoginButtonTitle" : "点击退出登录",
+    },
+    "YPHomePageModuleConfig" : {
+        "loginPageButtonTitle" : "未登录，请跳转到登录页面",
+        "quitLoginPageButtonTitle" : "您已登录",
+    }
+}
+

@@ -23,8 +23,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[YPLaunchManager defautlManager] loadAllLaunchTask];
+    
     [[YPLaunchManager defautlManager] runAppDidFinishLauchingBeforeUI];
     
+    /* 设置组件的后缀
+       YPProtocolMediator 是通过protocol名字 和 组件实现类的名字进行匹配查找的
+       支持 实现类带有后缀
+       比如：设置 modulePortSuffix = @“Interface”
+       YPProtocolMediator 查找时 YPHomePagePort 组件实现时，会先去掉尾部的 Port，并且拼接Interface进行查找
+       即会查找到 YPHomePageInterface 这个类
+     
+       同理：modulePortPrefix 前缀设置也是同样原理
+     */
     [YPProtocolMediator shareInstance].modulePortSuffix = @"Interface";
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
