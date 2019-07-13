@@ -1,0 +1,32 @@
+{
+  "name": "YPProtocolMediator",
+  "version": "1.0.0",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright © 2016 fmouer All rights reserved."
+  },
+  "summary": "YPProtocolMediator for Trip",
+  "homepage": "http://www.gnu.org/licenses/",
+  "description": "YPProtocolMediator",
+  "authors": {
+    "huangzhimou": "huangzm1@fmouercom"
+  },
+  "source": {
+    "git": "http://test/YPProtocolMediator.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": [
+    "Classes/**/**/*",
+    "Classes/**/*",
+    "Classes/*"
+  ],
+  "subspecs": [
+    {
+      "name": "YPModuleConfig",
+      "source_files": "YPModuleConfig/**/*"
+    }
+  ]
+}

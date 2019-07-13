@@ -1,0 +1,35 @@
+{
+  "name": "ModuleProtocol",
+  "version": "1.0.0",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright © 2016 fmouer All rights reserved."
+  },
+  "summary": "ModuleProtocol for Trip",
+  "homepage": "http://www.gnu.org/licenses/",
+  "description": "ModuleProtocol",
+  "authors": {
+    "huangzhimou": "huangzm1@fmouercom"
+  },
+  "source": {
+    "git": "http://test/ModuleProtocol.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "UserCenterProtocol",
+      "source_files": "Classes/UserCenter/**/*"
+    },
+    {
+      "name": "LoginProtocol",
+      "source_files": "Classes/Login/**/*"
+    },
+    {
+      "name": "HomePageProtocol",
+      "source_files": "Classes/HomePage/**/*"
+    }
+  ]
+}

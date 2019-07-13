@@ -1,0 +1,68 @@
+PODS:
+  - BuglyModule (1.0.0):
+    - ModuleProtocol/UserCenterProtocol
+    - YPProtocolMediator
+  - HomePage (1.0.0)
+  - LoginPage (1.0.0)
+  - ModuleProtocol (1.0.0):
+    - ModuleProtocol/HomePageProtocol (= 1.0.0)
+    - ModuleProtocol/LoginProtocol (= 1.0.0)
+    - ModuleProtocol/UserCenterProtocol (= 1.0.0)
+  - ModuleProtocol/HomePageProtocol (1.0.0)
+  - ModuleProtocol/LoginProtocol (1.0.0)
+  - ModuleProtocol/UserCenterProtocol (1.0.0)
+  - YPLaunchTask (1.0.0)
+  - YPModuleConfig (1.0.0)
+  - YPProtocolMediator (1.0.0):
+    - YPProtocolMediator/YPModuleConfig (= 1.0.0)
+  - YPProtocolMediator/YPModuleConfig (1.0.0)
+  - YPUserCenter (1.0.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - BuglyModule (from `LocalPods/BuglyModule`)
+  - HomePage (from `LocalPods/HomePage`)
+  - LoginPage (from `LocalPods/LoginPage`)
+  - ModuleProtocol (from `LocalPods/ModuleProtocol`)
+  - YPLaunchTask (from `LocalPods/YPLaunchTask`)
+  - YPModuleConfig (from `LocalPods/YPModuleConfig`)
+  - YPProtocolMediator (from `LocalPods/YPProtocolMediator`)
+  - YPUserCenter (from `LocalPods/YPUserCenter`)
+  - YYModel (~> 1.0.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YYModel
+
+EXTERNAL SOURCES:
+  BuglyModule:
+    :path: LocalPods/BuglyModule
+  HomePage:
+    :path: LocalPods/HomePage
+  LoginPage:
+    :path: LocalPods/LoginPage
+  ModuleProtocol:
+    :path: LocalPods/ModuleProtocol
+  YPLaunchTask:
+    :path: LocalPods/YPLaunchTask
+  YPModuleConfig:
+    :path: LocalPods/YPModuleConfig
+  YPProtocolMediator:
+    :path: LocalPods/YPProtocolMediator
+  YPUserCenter:
+    :path: LocalPods/YPUserCenter
+
+SPEC CHECKSUMS:
+  BuglyModule: 7886ed251d88761d2a22329d57b4b9bc69c36ab3
+  HomePage: cd60d256d0240f1c7ca7292ab261b4ce74dfa7d7
+  LoginPage: b26a2bd8f903aecaaed5a42c6ab676012f7de63a
+  ModuleProtocol: 2f7725ddc654ed48471b2138a123d5b1d9c6cdfc
+  YPLaunchTask: 465852d50449116fd1b68d2d0a80bc3f5e9ca4a7
+  YPModuleConfig: 6603e7728316377b140c6e025df7b86aae460fe7
+  YPProtocolMediator: b97d6ea6cc4f9f3db39acf7c5bc65ad09a68b628
+  YPUserCenter: c35815ba49085e08bc0ace94fbbdd0429f4f1aa5
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 0208475fa6f1344ec5f5c4ceff5e18285f7d8d2d
+
+COCOAPODS: 1.7.2

@@ -1,0 +1,1 @@
+../../../../LocalPods/YPModuleConfig/Classes/YPAppModuleConfigManager.h

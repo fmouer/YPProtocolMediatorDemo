@@ -1,0 +1,1818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A6FE2995B390E050F1A48759EDB8562B /* ModuleProtocol */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7E66E6F3A5D4D02229C7410DF9A69FE2 /* Build configuration list for PBXAggregateTarget "ModuleProtocol" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = ModuleProtocol;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		06EB7CC11A03D75FD2DA07D284685F73 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9776240B0A34CF1E854006E57B8A7FA5 /* YYModel-dummy.m */; };
+		075E6ED00571F8F33F41E6267C1F7656 /* YPBuglyLaunchTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 95B5DE6F6BFECC9F4AFEECE3A9F68DDE /* YPBuglyLaunchTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B8E7DAF6EF79317C606AAF3BDF1B166 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 58672ED8690593B76806B6615E54B893 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		109D8EE035E4A8C8D6347694E2AD7CA1 /* YPLaunchTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 078568612B2D4CD7D3AB6AFDFF13542F /* YPLaunchTask-dummy.m */; };
+		195B597A318A8FEBAE9D8FA57D6D2965 /* YPLoginInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = E711DAE6EF90ADB60C3C89E0AA0A067A /* YPLoginInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B9AEF5200045C87FC0118C2257AC46C /* YPAppModuleConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3702512255DB3D6183B80AC3A4AF517D /* YPAppModuleConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1FCCE21FC8E12E0A02E091E01F196CC5 /* YPLaunchManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B1AE8931C2C476A83D2F04306FFBD6 /* YPLaunchManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21D87FD4AD7AFF188ED415C43651C1DC /* YPUserCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64216B676C50F03BBE3CD3078B65AE65 /* YPUserCenter-dummy.m */; };
+		332F47F53E6998F86527587E29CA5D9E /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE84BFD63B6B0C0B3FE38A7E2CB94F /* NSObject+YYModel.m */; };
+		3B3619A523B6178D8FB7C696FB523A7D /* YPLaunchManager_Protect.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0984A156E756F81043D388D9267F4B /* YPLaunchManager_Protect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		409704622BA518AD71D9EECBE20AD996 /* DPLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5095CD0BDDE307F80B071B057A9106 /* DPLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CA97FF42DE30D2CB2BD9FB0331A354D /* YPUserCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = D1841EAE283073A90EB849FE9E1CC79F /* YPUserCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		507AE3229036015F74BBD0DA8557AEFD /* YPLaunchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 04466F004F9BA97E3E7312F62F31003C /* YPLaunchTask.m */; };
+		61103E6F8DC20FBDB73171370E94A975 /* YPAppModuleConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E59F7A322C4185FFFE339CD0CFCF6BA9 /* YPAppModuleConfigManager.m */; };
+		648579EB78CFD2BB2F5986401E7F52F0 /* YPLaunchTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C489E54A148D67EDEF7839DBC78BF6 /* YPLaunchTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68A7D019DDF2B3E542D935A3EDCDA584 /* YPHomePageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D76AA199AFDC7114A67974D421F070 /* YPHomePageViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6DA63E74A4A168DCF5C7F99FE1A0B42C /* YPLoginInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9215457638BDC0DD989954F0A68042 /* YPLoginInterface.m */; };
+		6DBCD8ED1365BAA7AD63F45C91015350 /* YPProtocolMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4D99A900F1B4C5A0152D070E2FB875 /* YPProtocolMediator-dummy.m */; };
+		7497F3BF33AFF388DB8EA007CF8D7B4B /* YPParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 0748AEE0A9212D7F80A1601AB6074262 /* YPParams.m */; };
+		779AC1C7AE361D4B72CBB4E7887DEE28 /* YPHomePageInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED4D7553CABA8F0B1B8E6FB5826C08C /* YPHomePageInterface.m */; };
+		7F5742D8C0FB01E6FAFE9CC10D289177 /* YPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B6899A42A6629AA2D100FE78FA199A /* YPLoginViewController.m */; };
+		8169A8A699B1FE218CE0EA079E8102D2 /* Pods-YPProtocolMediatorDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C2E39DEDAA1908631ED65DF45CCC32 /* Pods-YPProtocolMediatorDemo-dummy.m */; };
+		854E01EE0EB8FB182DBFF981A81CA589 /* YPLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 27857FCE4C18A44679C25D252B90FF75 /* YPLoginViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		858E2F2BC5D03ABDA6369FB00538984B /* YPBuglyLaunchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1C87EB8FD5434D36A076D560FC3370 /* YPBuglyLaunchTask.m */; };
+		8D13392C60BFEF653A0445A12B5DC157 /* LoginPage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 938042B7EBB2D0B35433C1BABA00E091 /* LoginPage-dummy.m */; };
+		9AFED9E881C97B089DDE495FFD7E7E78 /* BuglyModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C331DBC26E7EA3F44AE62F59B0159AE /* BuglyModule-dummy.m */; };
+		9F9722769C332C1DFA33D729D875D533 /* YPModuleConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3244834A01C2DD144B90AA94B159EE9 /* YPModuleConfig-dummy.m */; };
+		A9F5F87823F5016E0281A218C13D95F2 /* YPParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B34FE711B9A278797C9A1A9F088D6F8 /* YPParams.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B47C34B1043DAD16CC68E24F6239EB4F /* YPUserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8661210C1288F860FF2DE925719DD3A1 /* YPUserCenter.m */; };
+		B9CD8E0A4ABF8CB31536393B51CD903A /* NSObject+Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F83DDB3B1AEE60E34BD322648B109B /* NSObject+Protocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC9645C6F1557435A777722D6630F972 /* YPDefaultModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACE53D183A9B0119681B5DEC72F6F06 /* YPDefaultModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC46255DAABC498A35F70078C1A566BD /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22133D7EAB9A2AAE2BE71BE06D984B09 /* YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD52D2572F51D8C19C4AD5F51588242D /* NSObject+Protocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A3118B5C692299C5EFB818DF24BB9A /* NSObject+Protocol.m */; };
+		D8732DC06E1D34690897811C4ECC7B09 /* YPProtocolMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 13408F3464C0598A55033AA8A4AC45AD /* YPProtocolMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E1EFB8ABB1E546235F6BB4F7FAAE00E4 /* YPHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CE022FC581FB9403F13580BE540828 /* YPHomePageViewController.m */; };
+		E2F119888DA6312834DB6A2E84FF5906 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F020ACA4E0EBB64A4497BCFF9B3EBC /* YYClassInfo.m */; };
+		EB2A11BAA35328D619CC1F6C7AF72DEC /* YPProtocolMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AF8A7CCD3A4BD13ADBD7D35CDD9AD /* YPProtocolMediator.m */; };
+		EBC5CACA18C9B9E0C1BB8E5705B070D6 /* HomePage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 098D4F14B086F013FBD275112DC34508 /* HomePage-dummy.m */; };
+		EC4D4BB9DEA7C9F9605A104B5591C639 /* YPHomePageInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CFEA8813F321C11CCCCC68D17EBDF8 /* YPHomePageInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F2835971287B1D0AEAB26B297997FED2 /* YPLaunchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C44A3435C6D1495DC56C7AFE47B65BE /* YPLaunchManager.m */; };
+		F654313B55A14132792476E2B2FA2AE2 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 168A0A3AEE4A8ADFF088E76BEF8567BE /* YYClassInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE3A309579A89EDF09203A3E8CFC0914 /* YPDefaultModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0EB8EF2AF5C44FDAE955ADD82755BD /* YPDefaultModule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20C4A5AFAF25C6220627B0D0925CC60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FE2995B390E050F1A48759EDB8562B;
+			remoteInfo = ModuleProtocol;
+		};
+		2D10254389BD937584AE8C1087E2226B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCA61B85511CB6CA475E147FDDE1BC7;
+			remoteInfo = HomePage;
+		};
+		2EB178E1DCC3E4A508AFC304734CC1CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
+			remoteInfo = YYModel;
+		};
+		33BCE5E723DD9379BEC6827D924CA4EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 015776FCF3C0C2033F3CDB4F3DD37D60;
+			remoteInfo = LoginPage;
+		};
+		37814BA2DF70FE76D95A262814049609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BCD09A768B1702C09BDD3E509F48C2B;
+			remoteInfo = BuglyModule;
+		};
+		39621CD4FF59B1463F5C41CDE56AB682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC404FC4D8E79A34F8DADBA8A529A50;
+			remoteInfo = YPLaunchTask;
+		};
+		447280F6F13C0CD0EA3531B1FA7F5992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FE2995B390E050F1A48759EDB8562B;
+			remoteInfo = ModuleProtocol;
+		};
+		4513D9EA632D02969F47301C0AB87FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5105F4482F1412CE8D2B07AB9A99C6B9;
+			remoteInfo = YPProtocolMediator;
+		};
+		70FB6582F31DBEC58893D691A20DF799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FD2432E3EC4D586699253FE4A091364;
+			remoteInfo = YPUserCenter;
+		};
+		7486FB7379D6AC66E84C74EBD85E20D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5105F4482F1412CE8D2B07AB9A99C6B9;
+			remoteInfo = YPProtocolMediator;
+		};
+		8D38E8862741255C304B16497FA6CE82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 566F31756FB024BF71C6EF3ED1881A00;
+			remoteInfo = YPModuleConfig;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C1E8EEA86B8E292D05F08B77CCEC1D /* libHomePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHomePage.a; path = libHomePage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		04466F004F9BA97E3E7312F62F31003C /* YPLaunchTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPLaunchTask.m; path = Classes/YPLaunchTask.m; sourceTree = "<group>"; };
+		0748AEE0A9212D7F80A1601AB6074262 /* YPParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPParams.m; path = Classes/YPParams.m; sourceTree = "<group>"; };
+		078568612B2D4CD7D3AB6AFDFF13542F /* YPLaunchTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YPLaunchTask-dummy.m"; sourceTree = "<group>"; };
+		08D9ED925BC3C7017A7353C69B5B2938 /* YPLaunchTask-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPLaunchTask-prefix.pch"; sourceTree = "<group>"; };
+		098D4F14B086F013FBD275112DC34508 /* HomePage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HomePage-dummy.m"; sourceTree = "<group>"; };
+		0E1F76760AA076C9E78E1EE1885D7AD4 /* YPProtocolMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YPProtocolMediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		13408F3464C0598A55033AA8A4AC45AD /* YPProtocolMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPProtocolMediator.h; path = Classes/YPProtocolMediator.h; sourceTree = "<group>"; };
+		168A0A3AEE4A8ADFF088E76BEF8567BE /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
+		21A3118B5C692299C5EFB818DF24BB9A /* NSObject+Protocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Protocol.m"; path = "Classes/NSObject+Protocol.m"; sourceTree = "<group>"; };
+		22133D7EAB9A2AAE2BE71BE06D984B09 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
+		23B6899A42A6629AA2D100FE78FA199A /* YPLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPLoginViewController.m; path = Classes/YPLoginViewController.m; sourceTree = "<group>"; };
+		27701B43FE53C5585A8362CE9022E256 /* libYPModuleConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYPModuleConfig.a; path = libYPModuleConfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		27857FCE4C18A44679C25D252B90FF75 /* YPLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPLoginViewController.h; path = Classes/YPLoginViewController.h; sourceTree = "<group>"; };
+		28DB9771FF72C6B4B7D1B020188ECDCD /* BuglyModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BuglyModule.xcconfig; sourceTree = "<group>"; };
+		2A5095CD0BDDE307F80B071B057A9106 /* DPLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLog.h; path = Classes/DPLog.h; sourceTree = "<group>"; };
+		3193FC35E86909FFCDC7CADB5A234C96 /* HomePage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HomePage.xcconfig; sourceTree = "<group>"; };
+		34B1AE8931C2C476A83D2F04306FFBD6 /* YPLaunchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPLaunchManager.h; path = Classes/YPLaunchManager.h; sourceTree = "<group>"; };
+		361FD0D08F75984D621D0C1D230D4CAC /* YPLoginPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPLoginPort.h; path = Classes/Login/YPLoginPort.h; sourceTree = "<group>"; };
+		3702512255DB3D6183B80AC3A4AF517D /* YPAppModuleConfigManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPAppModuleConfigManager.h; path = Classes/YPAppModuleConfigManager.h; sourceTree = "<group>"; };
+		37AEEF2BF5FF12E37E31E3114D6146C6 /* Pods-YPProtocolMediatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPProtocolMediatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		37FCCB0A9EB4F85BAC50A246D401E880 /* libPods-YPProtocolMediatorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YPProtocolMediatorDemo.a"; path = "libPods-YPProtocolMediatorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDE1C68BE8FB098B8DB924B0B3F29B2 /* LoginPage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginPage-prefix.pch"; sourceTree = "<group>"; };
+		41DA6F6971454681D2C03B58D5A18F0F /* YPHomePagePort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPHomePagePort.h; path = Classes/HomePage/YPHomePagePort.h; sourceTree = "<group>"; };
+		47F83DDB3B1AEE60E34BD322648B109B /* NSObject+Protocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Protocol.h"; path = "Classes/NSObject+Protocol.h"; sourceTree = "<group>"; };
+		4B0984A156E756F81043D388D9267F4B /* YPLaunchManager_Protect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPLaunchManager_Protect.h; path = Classes/YPLaunchManager_Protect.h; sourceTree = "<group>"; };
+		52CFEA8813F321C11CCCCC68D17EBDF8 /* YPHomePageInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPHomePageInterface.h; path = Classes/YPHomePageInterface.h; sourceTree = "<group>"; };
+		56C2E39DEDAA1908631ED65DF45CCC32 /* Pods-YPProtocolMediatorDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YPProtocolMediatorDemo-dummy.m"; sourceTree = "<group>"; };
+		58672ED8690593B76806B6615E54B893 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
+		59D062640FD6067955DF6DCA82F37CB1 /* YPProtocolMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPProtocolMediator-prefix.pch"; sourceTree = "<group>"; };
+		5BC8A06C28532CE505267A5B3320D5E9 /* HomePage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomePage-prefix.pch"; sourceTree = "<group>"; };
+		61C489E54A148D67EDEF7839DBC78BF6 /* YPLaunchTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPLaunchTask.h; path = Classes/YPLaunchTask.h; sourceTree = "<group>"; };
+		64216B676C50F03BBE3CD3078B65AE65 /* YPUserCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YPUserCenter-dummy.m"; sourceTree = "<group>"; };
+		662311CDA2339090C79C64414F8D22DE /* YPUserCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPUserCenter-prefix.pch"; sourceTree = "<group>"; };
+		6721289435424F461C5037C98522A5FE /* BuglyModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BuglyModule-prefix.pch"; sourceTree = "<group>"; };
+		6B34FE711B9A278797C9A1A9F088D6F8 /* YPParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPParams.h; path = Classes/YPParams.h; sourceTree = "<group>"; };
+		6B85F95336BD547572E3F93DC5DDE6F8 /* YPModuleConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPModuleConfig-prefix.pch"; sourceTree = "<group>"; };
+		6CD00A6CA4998F2B545661DD24E12EC4 /* libBuglyModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBuglyModule.a; path = libBuglyModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ED4D7553CABA8F0B1B8E6FB5826C08C /* YPHomePageInterface.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPHomePageInterface.m; path = Classes/YPHomePageInterface.m; sourceTree = "<group>"; };
+		7ACE53D183A9B0119681B5DEC72F6F06 /* YPDefaultModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPDefaultModule.h; path = Classes/YPDefaultModule.h; sourceTree = "<group>"; };
+		7B6AF8A7CCD3A4BD13ADBD7D35CDD9AD /* YPProtocolMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPProtocolMediator.m; path = Classes/YPProtocolMediator.m; sourceTree = "<group>"; };
+		7C331DBC26E7EA3F44AE62F59B0159AE /* BuglyModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BuglyModule-dummy.m"; sourceTree = "<group>"; };
+		7EDE84BFD63B6B0C0B3FE38A7E2CB94F /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
+		83CE022FC581FB9403F13580BE540828 /* YPHomePageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPHomePageViewController.m; path = Classes/YPHomePageViewController.m; sourceTree = "<group>"; };
+		83D73EE808E87C7BD18E922FD0F6ADAE /* ModuleProtocol.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleProtocol.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		84400714AAADA126577B940FDCE3BBF7 /* Pods-YPProtocolMediatorDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YPProtocolMediatorDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8447DF15301B8382C3DC6EE2392E94B6 /* Pods-YPProtocolMediatorDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPProtocolMediatorDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		8661210C1288F860FF2DE925719DD3A1 /* YPUserCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPUserCenter.m; path = Classes/YPUserCenter.m; sourceTree = "<group>"; };
+		8C9215457638BDC0DD989954F0A68042 /* YPLoginInterface.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPLoginInterface.m; path = Classes/YPLoginInterface.m; sourceTree = "<group>"; };
+		938042B7EBB2D0B35433C1BABA00E091 /* LoginPage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginPage-dummy.m"; sourceTree = "<group>"; };
+		95B5DE6F6BFECC9F4AFEECE3A9F68DDE /* YPBuglyLaunchTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPBuglyLaunchTask.h; path = Classes/YPBuglyLaunchTask.h; sourceTree = "<group>"; };
+		960DB3D496A6D72A1BE0779FC5C6AF4D /* YPLaunchTask.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YPLaunchTask.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9776240B0A34CF1E854006E57B8A7FA5 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
+		97ACFBB9EA16FC943A559A56D39F5C80 /* ModuleProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleProtocol.xcconfig; sourceTree = "<group>"; };
+		9B6B240EEAD4639E1338BF8B24C3D033 /* YPUserCenterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPUserCenterDelegate.h; path = Classes/UserCenter/YPUserCenterDelegate.h; sourceTree = "<group>"; };
+		9C0EB8EF2AF5C44FDAE955ADD82755BD /* YPDefaultModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPDefaultModule.m; path = Classes/YPDefaultModule.m; sourceTree = "<group>"; };
+		9C44A3435C6D1495DC56C7AFE47B65BE /* YPLaunchManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPLaunchManager.m; path = Classes/YPLaunchManager.m; sourceTree = "<group>"; };
+		9C4E42691CC17C5A796009BBCC4D6F6E /* libYPUserCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYPUserCenter.a; path = libYPUserCenter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A12408545BB92366766DD91AEEC84918 /* LoginPage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LoginPage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3244834A01C2DD144B90AA94B159EE9 /* YPModuleConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YPModuleConfig-dummy.m"; sourceTree = "<group>"; };
+		B7DDFA0FB91EE63CEE89F9FA996987D0 /* LoginPage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginPage.xcconfig; sourceTree = "<group>"; };
+		B7F020ACA4E0EBB64A4497BCFF9B3EBC /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
+		B9B04ACEDC7A8278BABE4D8FAA0B1765 /* YPLaunchTask.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPLaunchTask.xcconfig; sourceTree = "<group>"; };
+		BD2F8824B0FF5F2E8C6E5497D33F6CB4 /* YPUserCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPUserCenter.xcconfig; sourceTree = "<group>"; };
+		C50C1BBBE6646109B1CEB3219D705195 /* Pods-YPProtocolMediatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPProtocolMediatorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C57A3592BCA04C14FF47FD5126371569 /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
+		C5DBCE0D2E5EBFA726FC389E15D03EBE /* libYPLaunchTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYPLaunchTask.a; path = libYPLaunchTask.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA068DED6973C2D296EB7F6B663518C /* libYPProtocolMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYPProtocolMediator.a; path = libYPProtocolMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00F18496003C86E9D96830B429A0AB2 /* YPUserCenterPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPUserCenterPort.h; path = Classes/UserCenter/YPUserCenterPort.h; sourceTree = "<group>"; };
+		D1841EAE283073A90EB849FE9E1CC79F /* YPUserCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPUserCenter.h; path = Classes/YPUserCenter.h; sourceTree = "<group>"; };
+		D531501B8840CCA57546894BC2A6544C /* YPProtocolMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPProtocolMediator.xcconfig; sourceTree = "<group>"; };
+		D8D1A3505C6DC7ACCF692666F12CF005 /* YPModuleConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPModuleConfig.xcconfig; sourceTree = "<group>"; };
+		D8D76AA199AFDC7114A67974D421F070 /* YPHomePageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPHomePageViewController.h; path = Classes/YPHomePageViewController.h; sourceTree = "<group>"; };
+		E460D5B0416D36F66EE8EC89E5D2FA0A /* libYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYModel.a; path = libYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59F7A322C4185FFFE339CD0CFCF6BA9 /* YPAppModuleConfigManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPAppModuleConfigManager.m; path = Classes/YPAppModuleConfigManager.m; sourceTree = "<group>"; };
+		E711DAE6EF90ADB60C3C89E0AA0A067A /* YPLoginInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPLoginInterface.h; path = Classes/YPLoginInterface.h; sourceTree = "<group>"; };
+		E8D8EA1A18DB9FE361A888DBB9863A0B /* YPModuleConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YPModuleConfig.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED95AD8C09E83F90085FD35DAC2A06EE /* libLoginPage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLoginPage.a; path = libLoginPage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC4099642AE96F00409B8EEB7EE9A03 /* YPUserCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YPUserCenter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EFC14921703BEA5FE8FBE4216046CBCA /* BuglyModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BuglyModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F1B002C52F9AAC3098ED41EDE2F5B26E /* HomePage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HomePage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA538FAEB3A81FDFBB4B30AA1284903C /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
+		FC4D99A900F1B4C5A0152D070E2FB875 /* YPProtocolMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YPProtocolMediator-dummy.m"; sourceTree = "<group>"; };
+		FE1C87EB8FD5434D36A076D560FC3370 /* YPBuglyLaunchTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPBuglyLaunchTask.m; path = Classes/YPBuglyLaunchTask.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27A21ADBDDBAFE3C84751FD2F1095068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4221BBA0AE5F7F613F5C90411A8ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D92BD3FB79FD3B8A008EA0CFD7A9599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8828F1384955A94DBECF61A5557DF9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C058CFEB46CC50AE17D1503E2EA34E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3157D9D4C62654BF116B58B47A9F6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5679E04DBB67B7D21E3EB297753C839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C6CE2C12344A082CAB001A7F1475CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F577201F0440BD06A196ED28B14145D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C59E400B7ED7A9CB73CC2D6EEE54568 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9B04ACEDC7A8278BABE4D8FAA0B1765 /* YPLaunchTask.xcconfig */,
+				078568612B2D4CD7D3AB6AFDFF13542F /* YPLaunchTask-dummy.m */,
+				08D9ED925BC3C7017A7353C69B5B2938 /* YPLaunchTask-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/YPLaunchTask";
+			sourceTree = "<group>";
+		};
+		0D41CEBBCC1FE98EB09E8669DFE078FD /* ModuleProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				6E63EC7F5B33B17765936FA2CD92D0FE /* HomePageProtocol */,
+				E6EEC736550246B361A0942341B7DB10 /* LoginProtocol */,
+				AC020383DE9E959AACDA57ED0C98FCC6 /* Pod */,
+				A08D440AA3D5B3B3D945A02D3DADE3A1 /* Support Files */,
+				D321901CFAE905286E88ECB6265D506C /* UserCenterProtocol */,
+			);
+			name = ModuleProtocol;
+			path = ../LocalPods/ModuleProtocol;
+			sourceTree = "<group>";
+		};
+		1D7ABD69E31AC7A5B7CB2273409C21AD /* YPUserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				D1841EAE283073A90EB849FE9E1CC79F /* YPUserCenter.h */,
+				8661210C1288F860FF2DE925719DD3A1 /* YPUserCenter.m */,
+				6B42FC5992E709DE51579125FD68935B /* Pod */,
+				5466FBDA0B8CA88851B8A791BD0BA914 /* Support Files */,
+			);
+			name = YPUserCenter;
+			path = ../LocalPods/YPUserCenter;
+			sourceTree = "<group>";
+		};
+		1EECF866CCA670C69F5DB604F09C9C16 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F1B002C52F9AAC3098ED41EDE2F5B26E /* HomePage.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		25F0EE25622C5947ACF7B60513201E77 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A12408545BB92366766DD91AEEC84918 /* LoginPage.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		41B6D3CDF44327D0CAF4F1D9F092C14B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8D1A3505C6DC7ACCF692666F12CF005 /* YPModuleConfig.xcconfig */,
+				B3244834A01C2DD144B90AA94B159EE9 /* YPModuleConfig-dummy.m */,
+				6B85F95336BD547572E3F93DC5DDE6F8 /* YPModuleConfig-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/YPModuleConfig";
+			sourceTree = "<group>";
+		};
+		4C494F5836084A262C807A5EBF5C9866 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				960DB3D496A6D72A1BE0779FC5C6AF4D /* YPLaunchTask.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		533AAC835BA39ACAC2EEF2FBAE7E5A27 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4B472365BF833C6F8EFA7D279808F01 /* BuglyModule */,
+				A63EF945DA3DDECEB68298CD6250BF09 /* HomePage */,
+				7C4185BE22A6030B0F0BF1AE1EF19F53 /* LoginPage */,
+				0D41CEBBCC1FE98EB09E8669DFE078FD /* ModuleProtocol */,
+				8F0F33BC6EAE684718025F91B3661AB6 /* YPLaunchTask */,
+				846DDC4417707A6151366FE188B2E4EA /* YPModuleConfig */,
+				A64A273C10F92AD3F5B001D36E7328D6 /* YPProtocolMediator */,
+				1D7ABD69E31AC7A5B7CB2273409C21AD /* YPUserCenter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5466FBDA0B8CA88851B8A791BD0BA914 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD2F8824B0FF5F2E8C6E5497D33F6CB4 /* YPUserCenter.xcconfig */,
+				64216B676C50F03BBE3CD3078B65AE65 /* YPUserCenter-dummy.m */,
+				662311CDA2339090C79C64414F8D22DE /* YPUserCenter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/YPUserCenter";
+			sourceTree = "<group>";
+		};
+		6B42FC5992E709DE51579125FD68935B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4099642AE96F00409B8EEB7EE9A03 /* YPUserCenter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6E63EC7F5B33B17765936FA2CD92D0FE /* HomePageProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				41DA6F6971454681D2C03B58D5A18F0F /* YPHomePagePort.h */,
+			);
+			name = HomePageProtocol;
+			sourceTree = "<group>";
+		};
+		795F370797E639814E96C19DCDC6840F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D531501B8840CCA57546894BC2A6544C /* YPProtocolMediator.xcconfig */,
+				FC4D99A900F1B4C5A0152D070E2FB875 /* YPProtocolMediator-dummy.m */,
+				59D062640FD6067955DF6DCA82F37CB1 /* YPProtocolMediator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/YPProtocolMediator";
+			sourceTree = "<group>";
+		};
+		7BFEDD755FA9552E1ABB72511DF4CED8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3193FC35E86909FFCDC7CADB5A234C96 /* HomePage.xcconfig */,
+				098D4F14B086F013FBD275112DC34508 /* HomePage-dummy.m */,
+				5BC8A06C28532CE505267A5B3320D5E9 /* HomePage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/HomePage";
+			sourceTree = "<group>";
+		};
+		7C4185BE22A6030B0F0BF1AE1EF19F53 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				E711DAE6EF90ADB60C3C89E0AA0A067A /* YPLoginInterface.h */,
+				8C9215457638BDC0DD989954F0A68042 /* YPLoginInterface.m */,
+				27857FCE4C18A44679C25D252B90FF75 /* YPLoginViewController.h */,
+				23B6899A42A6629AA2D100FE78FA199A /* YPLoginViewController.m */,
+				25F0EE25622C5947ACF7B60513201E77 /* Pod */,
+				AEC276879CB7D5A10DBDE5D87A554716 /* Support Files */,
+			);
+			name = LoginPage;
+			path = ../LocalPods/LoginPage;
+			sourceTree = "<group>";
+		};
+		7C7ED88EC4B3486434C90084C60AB87B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CD00A6CA4998F2B545661DD24E12EC4 /* libBuglyModule.a */,
+				01C1E8EEA86B8E292D05F08B77CCEC1D /* libHomePage.a */,
+				ED95AD8C09E83F90085FD35DAC2A06EE /* libLoginPage.a */,
+				37FCCB0A9EB4F85BAC50A246D401E880 /* libPods-YPProtocolMediatorDemo.a */,
+				C5DBCE0D2E5EBFA726FC389E15D03EBE /* libYPLaunchTask.a */,
+				27701B43FE53C5585A8362CE9022E256 /* libYPModuleConfig.a */,
+				CEA068DED6973C2D296EB7F6B663518C /* libYPProtocolMediator.a */,
+				9C4E42691CC17C5A796009BBCC4D6F6E /* libYPUserCenter.a */,
+				E460D5B0416D36F66EE8EC89E5D2FA0A /* libYYModel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846DDC4417707A6151366FE188B2E4EA /* YPModuleConfig */ = {
+			isa = PBXGroup;
+			children = (
+				3702512255DB3D6183B80AC3A4AF517D /* YPAppModuleConfigManager.h */,
+				E59F7A322C4185FFFE339CD0CFCF6BA9 /* YPAppModuleConfigManager.m */,
+				F86E0539CDFC49631936D6C211355B31 /* Pod */,
+				41B6D3CDF44327D0CAF4F1D9F092C14B /* Support Files */,
+			);
+			name = YPModuleConfig;
+			path = ../LocalPods/YPModuleConfig;
+			sourceTree = "<group>";
+		};
+		8E35942DC045139F4EFC5FC22ABD9BDB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28DB9771FF72C6B4B7D1B020188ECDCD /* BuglyModule.xcconfig */,
+				7C331DBC26E7EA3F44AE62F59B0159AE /* BuglyModule-dummy.m */,
+				6721289435424F461C5037C98522A5FE /* BuglyModule-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/BuglyModule";
+			sourceTree = "<group>";
+		};
+		8F0F33BC6EAE684718025F91B3661AB6 /* YPLaunchTask */ = {
+			isa = PBXGroup;
+			children = (
+				2A5095CD0BDDE307F80B071B057A9106 /* DPLog.h */,
+				34B1AE8931C2C476A83D2F04306FFBD6 /* YPLaunchManager.h */,
+				9C44A3435C6D1495DC56C7AFE47B65BE /* YPLaunchManager.m */,
+				4B0984A156E756F81043D388D9267F4B /* YPLaunchManager_Protect.h */,
+				61C489E54A148D67EDEF7839DBC78BF6 /* YPLaunchTask.h */,
+				04466F004F9BA97E3E7312F62F31003C /* YPLaunchTask.m */,
+				4C494F5836084A262C807A5EBF5C9866 /* Pod */,
+				0C59E400B7ED7A9CB73CC2D6EEE54568 /* Support Files */,
+			);
+			name = YPLaunchTask;
+			path = ../LocalPods/YPLaunchTask;
+			sourceTree = "<group>";
+		};
+		997F14F131471FE3EAF41487B5DF4E5E /* Pods-YPProtocolMediatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84400714AAADA126577B940FDCE3BBF7 /* Pods-YPProtocolMediatorDemo-acknowledgements.markdown */,
+				8447DF15301B8382C3DC6EE2392E94B6 /* Pods-YPProtocolMediatorDemo-acknowledgements.plist */,
+				56C2E39DEDAA1908631ED65DF45CCC32 /* Pods-YPProtocolMediatorDemo-dummy.m */,
+				37AEEF2BF5FF12E37E31E3114D6146C6 /* Pods-YPProtocolMediatorDemo.debug.xcconfig */,
+				C50C1BBBE6646109B1CEB3219D705195 /* Pods-YPProtocolMediatorDemo.release.xcconfig */,
+			);
+			name = "Pods-YPProtocolMediatorDemo";
+			path = "Target Support Files/Pods-YPProtocolMediatorDemo";
+			sourceTree = "<group>";
+		};
+		A08D440AA3D5B3B3D945A02D3DADE3A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97ACFBB9EA16FC943A559A56D39F5C80 /* ModuleProtocol.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ModuleProtocol";
+			sourceTree = "<group>";
+		};
+		A4B472365BF833C6F8EFA7D279808F01 /* BuglyModule */ = {
+			isa = PBXGroup;
+			children = (
+				95B5DE6F6BFECC9F4AFEECE3A9F68DDE /* YPBuglyLaunchTask.h */,
+				FE1C87EB8FD5434D36A076D560FC3370 /* YPBuglyLaunchTask.m */,
+				BB9DAB048FE16529F620B2D5969DCA9D /* Pod */,
+				8E35942DC045139F4EFC5FC22ABD9BDB /* Support Files */,
+			);
+			name = BuglyModule;
+			path = ../LocalPods/BuglyModule;
+			sourceTree = "<group>";
+		};
+		A5899E90BCB0AACB55B56B25F044413D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F76760AA076C9E78E1EE1885D7AD4 /* YPProtocolMediator.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A63EF945DA3DDECEB68298CD6250BF09 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				52CFEA8813F321C11CCCCC68D17EBDF8 /* YPHomePageInterface.h */,
+				6ED4D7553CABA8F0B1B8E6FB5826C08C /* YPHomePageInterface.m */,
+				D8D76AA199AFDC7114A67974D421F070 /* YPHomePageViewController.h */,
+				83CE022FC581FB9403F13580BE540828 /* YPHomePageViewController.m */,
+				1EECF866CCA670C69F5DB604F09C9C16 /* Pod */,
+				7BFEDD755FA9552E1ABB72511DF4CED8 /* Support Files */,
+			);
+			name = HomePage;
+			path = ../LocalPods/HomePage;
+			sourceTree = "<group>";
+		};
+		A64A273C10F92AD3F5B001D36E7328D6 /* YPProtocolMediator */ = {
+			isa = PBXGroup;
+			children = (
+				47F83DDB3B1AEE60E34BD322648B109B /* NSObject+Protocol.h */,
+				21A3118B5C692299C5EFB818DF24BB9A /* NSObject+Protocol.m */,
+				7ACE53D183A9B0119681B5DEC72F6F06 /* YPDefaultModule.h */,
+				9C0EB8EF2AF5C44FDAE955ADD82755BD /* YPDefaultModule.m */,
+				6B34FE711B9A278797C9A1A9F088D6F8 /* YPParams.h */,
+				0748AEE0A9212D7F80A1601AB6074262 /* YPParams.m */,
+				13408F3464C0598A55033AA8A4AC45AD /* YPProtocolMediator.h */,
+				7B6AF8A7CCD3A4BD13ADBD7D35CDD9AD /* YPProtocolMediator.m */,
+				A5899E90BCB0AACB55B56B25F044413D /* Pod */,
+				795F370797E639814E96C19DCDC6840F /* Support Files */,
+			);
+			name = YPProtocolMediator;
+			path = ../LocalPods/YPProtocolMediator;
+			sourceTree = "<group>";
+		};
+		AC020383DE9E959AACDA57ED0C98FCC6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				83D73EE808E87C7BD18E922FD0F6ADAE /* ModuleProtocol.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AEC276879CB7D5A10DBDE5D87A554716 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7DDFA0FB91EE63CEE89F9FA996987D0 /* LoginPage.xcconfig */,
+				938042B7EBB2D0B35433C1BABA00E091 /* LoginPage-dummy.m */,
+				3FDE1C68BE8FB098B8DB924B0B3F29B2 /* LoginPage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/LoginPage";
+			sourceTree = "<group>";
+		};
+		BB9DAB048FE16529F620B2D5969DCA9D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EFC14921703BEA5FE8FBE4216046CBCA /* BuglyModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BD1D4FBC5B059C4CE846B8BCE391DED1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				997F14F131471FE3EAF41487B5DF4E5E /* Pods-YPProtocolMediatorDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				533AAC835BA39ACAC2EEF2FBAE7E5A27 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				F8EF2200BE9FEC07CF94B1BF0280D61A /* Pods */,
+				7C7ED88EC4B3486434C90084C60AB87B /* Products */,
+				BD1D4FBC5B059C4CE846B8BCE391DED1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D321901CFAE905286E88ECB6265D506C /* UserCenterProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				9B6B240EEAD4639E1338BF8B24C3D033 /* YPUserCenterDelegate.h */,
+				D00F18496003C86E9D96830B429A0AB2 /* YPUserCenterPort.h */,
+			);
+			name = UserCenterProtocol;
+			sourceTree = "<group>";
+		};
+		D5A7CAC8857DD58D4778C43E5FC8621A /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				58672ED8690593B76806B6615E54B893 /* NSObject+YYModel.h */,
+				7EDE84BFD63B6B0C0B3FE38A7E2CB94F /* NSObject+YYModel.m */,
+				168A0A3AEE4A8ADFF088E76BEF8567BE /* YYClassInfo.h */,
+				B7F020ACA4E0EBB64A4497BCFF9B3EBC /* YYClassInfo.m */,
+				22133D7EAB9A2AAE2BE71BE06D984B09 /* YYModel.h */,
+				DF45509F7A16C14417A6C658C44BF2D1 /* Support Files */,
+			);
+			name = YYModel;
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF45509F7A16C14417A6C658C44BF2D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA538FAEB3A81FDFBB4B30AA1284903C /* YYModel.xcconfig */,
+				9776240B0A34CF1E854006E57B8A7FA5 /* YYModel-dummy.m */,
+				C57A3592BCA04C14FF47FD5126371569 /* YYModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYModel";
+			sourceTree = "<group>";
+		};
+		E6EEC736550246B361A0942341B7DB10 /* LoginProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				361FD0D08F75984D621D0C1D230D4CAC /* YPLoginPort.h */,
+			);
+			name = LoginProtocol;
+			sourceTree = "<group>";
+		};
+		F86E0539CDFC49631936D6C211355B31 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E8D8EA1A18DB9FE361A888DBB9863A0B /* YPModuleConfig.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F8EF2200BE9FEC07CF94B1BF0280D61A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5A7CAC8857DD58D4778C43E5FC8621A /* YYModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D7794F66CEB65BAE5AB9C155E1CD207 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9AEF5200045C87FC0118C2257AC46C /* YPAppModuleConfigManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA36A7BDB5035FD7D7EB009DD9B0909 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E04A22ED0ECD58C204E78F1037F4A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA97FF42DE30D2CB2BD9FB0331A354D /* YPUserCenter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768078E15AA23B4B19A2C12FF46E415D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8E7DAF6EF79317C606AAF3BDF1B166 /* NSObject+YYModel.h in Headers */,
+				F654313B55A14132792476E2B2FA2AE2 /* YYClassInfo.h in Headers */,
+				CC46255DAABC498A35F70078C1A566BD /* YYModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB96B87024D379BE87951C3AE008267 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195B597A318A8FEBAE9D8FA57D6D2965 /* YPLoginInterface.h in Headers */,
+				854E01EE0EB8FB182DBFF981A81CA589 /* YPLoginViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9240AFA8A0CE3DB8B994E7C01DF0D483 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075E6ED00571F8F33F41E6267C1F7656 /* YPBuglyLaunchTask.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EBAC68737E873E29CD55D4E5B888266 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CD8E0A4ABF8CB31536393B51CD903A /* NSObject+Protocol.h in Headers */,
+				BC9645C6F1557435A777722D6630F972 /* YPDefaultModule.h in Headers */,
+				A9F5F87823F5016E0281A218C13D95F2 /* YPParams.h in Headers */,
+				D8732DC06E1D34690897811C4ECC7B09 /* YPProtocolMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF45896606760B63E1C59D61FDDEFD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4D4BB9DEA7C9F9605A104B5591C639 /* YPHomePageInterface.h in Headers */,
+				68A7D019DDF2B3E542D935A3EDCDA584 /* YPHomePageViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20A41996EEB8BDF1C31AE88777B21AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409704622BA518AD71D9EECBE20AD996 /* DPLog.h in Headers */,
+				1FCCE21FC8E12E0A02E091E01F196CC5 /* YPLaunchManager.h in Headers */,
+				3B3619A523B6178D8FB7C696FB523A7D /* YPLaunchManager_Protect.h in Headers */,
+				648579EB78CFD2BB2F5986401E7F52F0 /* YPLaunchTask.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		015776FCF3C0C2033F3CDB4F3DD37D60 /* LoginPage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86261F516F01AC7325AD0470E9A3F9EF /* Build configuration list for PBXNativeTarget "LoginPage" */;
+			buildPhases = (
+				7FB96B87024D379BE87951C3AE008267 /* Headers */,
+				F6E44C79B055788DBD34561D12A9E786 /* Sources */,
+				3F4221BBA0AE5F7F613F5C90411A8ED7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginPage;
+			productName = LoginPage;
+			productReference = ED95AD8C09E83F90085FD35DAC2A06EE /* libLoginPage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		103D4679804B2D9F332AD38288C78B37 /* Pods-YPProtocolMediatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926B3EFB1047A4551BFC8C11FB8A8642 /* Build configuration list for PBXNativeTarget "Pods-YPProtocolMediatorDemo" */;
+			buildPhases = (
+				5BA36A7BDB5035FD7D7EB009DD9B0909 /* Headers */,
+				A4E4FB282B4109BD3B1165044E011484 /* Sources */,
+				A3157D9D4C62654BF116B58B47A9F6FE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6BF9A2D317C499D4C7D0EC7E250971C /* PBXTargetDependency */,
+				F469711D1AF9C8E6943DBD53CFE24BC8 /* PBXTargetDependency */,
+				0455814C2F62B5CB7DD44241D5AFB973 /* PBXTargetDependency */,
+				4BD269199A7F20847ED25B7ABBCE5ABA /* PBXTargetDependency */,
+				01EA5FE73783CE83E91A90987FC42089 /* PBXTargetDependency */,
+				44823FE5666F91D16C68D528E11F9724 /* PBXTargetDependency */,
+				A369E00F74215B9C4C95136EADD9474D /* PBXTargetDependency */,
+				13A6122320A77F2F1CBE5587DC03824A /* PBXTargetDependency */,
+				41316ED455CDE870B0BA53C302329765 /* PBXTargetDependency */,
+			);
+			name = "Pods-YPProtocolMediatorDemo";
+			productName = "Pods-YPProtocolMediatorDemo";
+			productReference = 37FCCB0A9EB4F85BAC50A246D401E880 /* libPods-YPProtocolMediatorDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3FD2432E3EC4D586699253FE4A091364 /* YPUserCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486E4E9B73C28941B4D8FF046FEDDE63 /* Build configuration list for PBXNativeTarget "YPUserCenter" */;
+			buildPhases = (
+				69E04A22ED0ECD58C204E78F1037F4A6 /* Headers */,
+				AA25D9B216D92A52115D60498CD23DD9 /* Sources */,
+				F577201F0440BD06A196ED28B14145D2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPUserCenter;
+			productName = YPUserCenter;
+			productReference = 9C4E42691CC17C5A796009BBCC4D6F6E /* libYPUserCenter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5105F4482F1412CE8D2B07AB9A99C6B9 /* YPProtocolMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DACA0B4CD59E9DFFC9A65346F6D00E /* Build configuration list for PBXNativeTarget "YPProtocolMediator" */;
+			buildPhases = (
+				9EBAC68737E873E29CD55D4E5B888266 /* Headers */,
+				8A4CACB8D2309E4E6D7FD3C701372F94 /* Sources */,
+				B5C6CE2C12344A082CAB001A7F1475CB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPProtocolMediator;
+			productName = YPProtocolMediator;
+			productReference = CEA068DED6973C2D296EB7F6B663518C /* libYPProtocolMediator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		566F31756FB024BF71C6EF3ED1881A00 /* YPModuleConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37BA5C1781908F3FE546E7740E5D04FF /* Build configuration list for PBXNativeTarget "YPModuleConfig" */;
+			buildPhases = (
+				4D7794F66CEB65BAE5AB9C155E1CD207 /* Headers */,
+				EC2648F40A2E39B1EC3C20FA6A51EFAD /* Sources */,
+				27A21ADBDDBAFE3C84751FD2F1095068 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPModuleConfig;
+			productName = YPModuleConfig;
+			productReference = 27701B43FE53C5585A8362CE9022E256 /* libYPModuleConfig.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5BCD09A768B1702C09BDD3E509F48C2B /* BuglyModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676F674F40B4CDB94F9CA44F2D9ABA2C /* Build configuration list for PBXNativeTarget "BuglyModule" */;
+			buildPhases = (
+				9240AFA8A0CE3DB8B994E7C01DF0D483 /* Headers */,
+				00B25520FF422F3FC51C91EEA26E1248 /* Sources */,
+				B5679E04DBB67B7D21E3EB297753C839 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2D1C6F9C73865058BAFD0703C57EA3E /* PBXTargetDependency */,
+				D0F9687D86F93DCA31E0D3E1FCDA419C /* PBXTargetDependency */,
+			);
+			name = BuglyModule;
+			productName = BuglyModule;
+			productReference = 6CD00A6CA4998F2B545661DD24E12EC4 /* libBuglyModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		84B44807A12996D487A4A591A481D6A0 /* YYModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07475BFF49F618F9523EA1A2F1925CD1 /* Build configuration list for PBXNativeTarget "YYModel" */;
+			buildPhases = (
+				768078E15AA23B4B19A2C12FF46E415D /* Headers */,
+				09320F3BD0AA7E1D3B07FE201411AC58 /* Sources */,
+				9C058CFEB46CC50AE17D1503E2EA34E9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYModel;
+			productName = YYModel;
+			productReference = E460D5B0416D36F66EE8EC89E5D2FA0A /* libYYModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ABC404FC4D8E79A34F8DADBA8A529A50 /* YPLaunchTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056EBE44703AE2E0B8CCEEC3DC963685 /* Build configuration list for PBXNativeTarget "YPLaunchTask" */;
+			buildPhases = (
+				C20A41996EEB8BDF1C31AE88777B21AD /* Headers */,
+				682AF5389084896E88A322A902A3217A /* Sources */,
+				8828F1384955A94DBECF61A5557DF9DE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPLaunchTask;
+			productName = YPLaunchTask;
+			productReference = C5DBCE0D2E5EBFA726FC389E15D03EBE /* libYPLaunchTask.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AFCA61B85511CB6CA475E147FDDE1BC7 /* HomePage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBE9FB7D779B0DBBA95F4D2F22B91F6 /* Build configuration list for PBXNativeTarget "HomePage" */;
+			buildPhases = (
+				BDF45896606760B63E1C59D61FDDEFD8 /* Headers */,
+				344859A541587EBEF6C383369250DD79 /* Sources */,
+				4D92BD3FB79FD3B8A008EA0CFD7A9599 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomePage;
+			productName = HomePage;
+			productReference = 01C1E8EEA86B8E292D05F08B77CCEC1D /* libHomePage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7C7ED88EC4B3486434C90084C60AB87B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BCD09A768B1702C09BDD3E509F48C2B /* BuglyModule */,
+				AFCA61B85511CB6CA475E147FDDE1BC7 /* HomePage */,
+				015776FCF3C0C2033F3CDB4F3DD37D60 /* LoginPage */,
+				A6FE2995B390E050F1A48759EDB8562B /* ModuleProtocol */,
+				103D4679804B2D9F332AD38288C78B37 /* Pods-YPProtocolMediatorDemo */,
+				ABC404FC4D8E79A34F8DADBA8A529A50 /* YPLaunchTask */,
+				566F31756FB024BF71C6EF3ED1881A00 /* YPModuleConfig */,
+				5105F4482F1412CE8D2B07AB9A99C6B9 /* YPProtocolMediator */,
+				3FD2432E3EC4D586699253FE4A091364 /* YPUserCenter */,
+				84B44807A12996D487A4A591A481D6A0 /* YYModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00B25520FF422F3FC51C91EEA26E1248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFED9E881C97B089DDE495FFD7E7E78 /* BuglyModule-dummy.m in Sources */,
+				858E2F2BC5D03ABDA6369FB00538984B /* YPBuglyLaunchTask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09320F3BD0AA7E1D3B07FE201411AC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332F47F53E6998F86527587E29CA5D9E /* NSObject+YYModel.m in Sources */,
+				E2F119888DA6312834DB6A2E84FF5906 /* YYClassInfo.m in Sources */,
+				06EB7CC11A03D75FD2DA07D284685F73 /* YYModel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344859A541587EBEF6C383369250DD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC5CACA18C9B9E0C1BB8E5705B070D6 /* HomePage-dummy.m in Sources */,
+				779AC1C7AE361D4B72CBB4E7887DEE28 /* YPHomePageInterface.m in Sources */,
+				E1EFB8ABB1E546235F6BB4F7FAAE00E4 /* YPHomePageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682AF5389084896E88A322A902A3217A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2835971287B1D0AEAB26B297997FED2 /* YPLaunchManager.m in Sources */,
+				109D8EE035E4A8C8D6347694E2AD7CA1 /* YPLaunchTask-dummy.m in Sources */,
+				507AE3229036015F74BBD0DA8557AEFD /* YPLaunchTask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4CACB8D2309E4E6D7FD3C701372F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD52D2572F51D8C19C4AD5F51588242D /* NSObject+Protocol.m in Sources */,
+				FE3A309579A89EDF09203A3E8CFC0914 /* YPDefaultModule.m in Sources */,
+				7497F3BF33AFF388DB8EA007CF8D7B4B /* YPParams.m in Sources */,
+				6DBCD8ED1365BAA7AD63F45C91015350 /* YPProtocolMediator-dummy.m in Sources */,
+				EB2A11BAA35328D619CC1F6C7AF72DEC /* YPProtocolMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E4FB282B4109BD3B1165044E011484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8169A8A699B1FE218CE0EA079E8102D2 /* Pods-YPProtocolMediatorDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA25D9B216D92A52115D60498CD23DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D87FD4AD7AFF188ED415C43651C1DC /* YPUserCenter-dummy.m in Sources */,
+				B47C34B1043DAD16CC68E24F6239EB4F /* YPUserCenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2648F40A2E39B1EC3C20FA6A51EFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61103E6F8DC20FBDB73171370E94A975 /* YPAppModuleConfigManager.m in Sources */,
+				9F9722769C332C1DFA33D729D875D533 /* YPModuleConfig-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E44C79B055788DBD34561D12A9E786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D13392C60BFEF653A0445A12B5DC157 /* LoginPage-dummy.m in Sources */,
+				6DA63E74A4A168DCF5C7F99FE1A0B42C /* YPLoginInterface.m in Sources */,
+				7F5742D8C0FB01E6FAFE9CC10D289177 /* YPLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01EA5FE73783CE83E91A90987FC42089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YPLaunchTask;
+			target = ABC404FC4D8E79A34F8DADBA8A529A50 /* YPLaunchTask */;
+			targetProxy = 39621CD4FF59B1463F5C41CDE56AB682 /* PBXContainerItemProxy */;
+		};
+		0455814C2F62B5CB7DD44241D5AFB973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LoginPage;
+			target = 015776FCF3C0C2033F3CDB4F3DD37D60 /* LoginPage */;
+			targetProxy = 33BCE5E723DD9379BEC6827D924CA4EF /* PBXContainerItemProxy */;
+		};
+		13A6122320A77F2F1CBE5587DC03824A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YPUserCenter;
+			target = 3FD2432E3EC4D586699253FE4A091364 /* YPUserCenter */;
+			targetProxy = 70FB6582F31DBEC58893D691A20DF799 /* PBXContainerItemProxy */;
+		};
+		41316ED455CDE870B0BA53C302329765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
+			targetProxy = 2EB178E1DCC3E4A508AFC304734CC1CA /* PBXContainerItemProxy */;
+		};
+		44823FE5666F91D16C68D528E11F9724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YPModuleConfig;
+			target = 566F31756FB024BF71C6EF3ED1881A00 /* YPModuleConfig */;
+			targetProxy = 8D38E8862741255C304B16497FA6CE82 /* PBXContainerItemProxy */;
+		};
+		4BD269199A7F20847ED25B7ABBCE5ABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModuleProtocol;
+			target = A6FE2995B390E050F1A48759EDB8562B /* ModuleProtocol */;
+			targetProxy = 447280F6F13C0CD0EA3531B1FA7F5992 /* PBXContainerItemProxy */;
+		};
+		A369E00F74215B9C4C95136EADD9474D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YPProtocolMediator;
+			target = 5105F4482F1412CE8D2B07AB9A99C6B9 /* YPProtocolMediator */;
+			targetProxy = 7486FB7379D6AC66E84C74EBD85E20D2 /* PBXContainerItemProxy */;
+		};
+		D0F9687D86F93DCA31E0D3E1FCDA419C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YPProtocolMediator;
+			target = 5105F4482F1412CE8D2B07AB9A99C6B9 /* YPProtocolMediator */;
+			targetProxy = 4513D9EA632D02969F47301C0AB87FD5 /* PBXContainerItemProxy */;
+		};
+		D6BF9A2D317C499D4C7D0EC7E250971C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BuglyModule;
+			target = 5BCD09A768B1702C09BDD3E509F48C2B /* BuglyModule */;
+			targetProxy = 37814BA2DF70FE76D95A262814049609 /* PBXContainerItemProxy */;
+		};
+		F2D1C6F9C73865058BAFD0703C57EA3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModuleProtocol;
+			target = A6FE2995B390E050F1A48759EDB8562B /* ModuleProtocol */;
+			targetProxy = 20C4A5AFAF25C6220627B0D0925CC60E /* PBXContainerItemProxy */;
+		};
+		F469711D1AF9C8E6943DBD53CFE24BC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HomePage;
+			target = AFCA61B85511CB6CA475E147FDDE1BC7 /* HomePage */;
+			targetProxy = 2D10254389BD937584AE8C1087E2226B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DB1338329BE45247010BDDD4A5E114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DDFA0FB91EE63CEE89F9FA996987D0 /* LoginPage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LoginPage/LoginPage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LoginPage;
+				PRODUCT_NAME = LoginPage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34B918EECCF0D83B27EDEBA17812D7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA538FAEB3A81FDFBB4B30AA1284903C /* YYModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50825184F398C83B0B4243F8EC77AE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97ACFBB9EA16FC943A559A56D39F5C80 /* ModuleProtocol.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BC5E34B3E986B6CC36D16122501A7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B04ACEDC7A8278BABE4D8FAA0B1765 /* YPLaunchTask.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YPLaunchTask/YPLaunchTask-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YPLaunchTask;
+				PRODUCT_NAME = YPLaunchTask;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E4944422251C29F7D455C55D905223B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D1A3505C6DC7ACCF692666F12CF005 /* YPModuleConfig.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YPModuleConfig/YPModuleConfig-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YPModuleConfig;
+				PRODUCT_NAME = YPModuleConfig;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6505314BB9122F8836B5B34FE0BBBD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50C1BBBE6646109B1CEB3219D705195 /* Pods-YPProtocolMediatorDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A9CA8DCC269CCC58400FC52FB0E9162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37AEEF2BF5FF12E37E31E3114D6146C6 /* Pods-YPProtocolMediatorDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E7747823D178F77F55AF36C9C744E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA538FAEB3A81FDFBB4B30AA1284903C /* YYModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E97947EAECD758BB91D0F0D79D15114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D531501B8840CCA57546894BC2A6544C /* YPProtocolMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YPProtocolMediator/YPProtocolMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YPProtocolMediator;
+				PRODUCT_NAME = YPProtocolMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEE8FDC856276BB1D9DD1B150C5AF288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2F8824B0FF5F2E8C6E5497D33F6CB4 /* YPUserCenter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YPUserCenter/YPUserCenter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YPUserCenter;
+				PRODUCT_NAME = YPUserCenter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7D817DDC1959DBE3293C396F4AB6E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28DB9771FF72C6B4B7D1B020188ECDCD /* BuglyModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BuglyModule/BuglyModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BuglyModule;
+				PRODUCT_NAME = BuglyModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8E65CCF313F5ED3529D29F285D0397D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DDFA0FB91EE63CEE89F9FA996987D0 /* LoginPage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LoginPage/LoginPage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LoginPage;
+				PRODUCT_NAME = LoginPage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D058B28B76C8BD7E5008C06BBFCB168D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B04ACEDC7A8278BABE4D8FAA0B1765 /* YPLaunchTask.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YPLaunchTask/YPLaunchTask-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YPLaunchTask;
+				PRODUCT_NAME = YPLaunchTask;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D30F0F685F555994FBC56BD52F9CDCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28DB9771FF72C6B4B7D1B020188ECDCD /* BuglyModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BuglyModule/BuglyModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BuglyModule;
+				PRODUCT_NAME = BuglyModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE0C610451FA196E5014B6ABE95C239A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97ACFBB9EA16FC943A559A56D39F5C80 /* ModuleProtocol.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA1C20B2E7676A4C768D349F63B086F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D531501B8840CCA57546894BC2A6544C /* YPProtocolMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YPProtocolMediator/YPProtocolMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YPProtocolMediator;
+				PRODUCT_NAME = YPProtocolMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEF5E973B8C4D3A7795C177ACA85ACFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2F8824B0FF5F2E8C6E5497D33F6CB4 /* YPUserCenter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YPUserCenter/YPUserCenter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YPUserCenter;
+				PRODUCT_NAME = YPUserCenter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF0140F64DFEA52838443D7719492C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3193FC35E86909FFCDC7CADB5A234C96 /* HomePage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HomePage/HomePage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HomePage;
+				PRODUCT_NAME = HomePage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F058F5DC31AD9228B15B3E5D12596596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D1A3505C6DC7ACCF692666F12CF005 /* YPModuleConfig.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YPModuleConfig/YPModuleConfig-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YPModuleConfig;
+				PRODUCT_NAME = YPModuleConfig;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F493A60AED491523190E6E6501ED8B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3193FC35E86909FFCDC7CADB5A234C96 /* HomePage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HomePage/HomePage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HomePage;
+				PRODUCT_NAME = HomePage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		056EBE44703AE2E0B8CCEEC3DC963685 /* Build configuration list for PBXNativeTarget "YPLaunchTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC5E34B3E986B6CC36D16122501A7A2 /* Debug */,
+				D058B28B76C8BD7E5008C06BBFCB168D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DACA0B4CD59E9DFFC9A65346F6D00E /* Build configuration list for PBXNativeTarget "YPProtocolMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1C20B2E7676A4C768D349F63B086F7 /* Debug */,
+				9E97947EAECD758BB91D0F0D79D15114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07475BFF49F618F9523EA1A2F1925CD1 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B918EECCF0D83B27EDEBA17812D7BF /* Debug */,
+				6E7747823D178F77F55AF36C9C744E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37BA5C1781908F3FE546E7740E5D04FF /* Build configuration list for PBXNativeTarget "YPModuleConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E4944422251C29F7D455C55D905223B /* Debug */,
+				F058F5DC31AD9228B15B3E5D12596596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		486E4E9B73C28941B4D8FF046FEDDE63 /* Build configuration list for PBXNativeTarget "YPUserCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE8FDC856276BB1D9DD1B150C5AF288 /* Debug */,
+				EEF5E973B8C4D3A7795C177ACA85ACFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676F674F40B4CDB94F9CA44F2D9ABA2C /* Build configuration list for PBXNativeTarget "BuglyModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D817DDC1959DBE3293C396F4AB6E67 /* Debug */,
+				D30F0F685F555994FBC56BD52F9CDCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E66E6F3A5D4D02229C7410DF9A69FE2 /* Build configuration list for PBXAggregateTarget "ModuleProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50825184F398C83B0B4243F8EC77AE29 /* Debug */,
+				DE0C610451FA196E5014B6ABE95C239A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86261F516F01AC7325AD0470E9A3F9EF /* Build configuration list for PBXNativeTarget "LoginPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DB1338329BE45247010BDDD4A5E114 /* Debug */,
+				C8E65CCF313F5ED3529D29F285D0397D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		926B3EFB1047A4551BFC8C11FB8A8642 /* Build configuration list for PBXNativeTarget "Pods-YPProtocolMediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A9CA8DCC269CCC58400FC52FB0E9162 /* Debug */,
+				6505314BB9122F8836B5B34FE0BBBD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBE9FB7D779B0DBBA95F4D2F22B91F6 /* Build configuration list for PBXNativeTarget "HomePage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F493A60AED491523190E6E6501ED8B86 /* Debug */,
+				EF0140F64DFEA52838443D7719492C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

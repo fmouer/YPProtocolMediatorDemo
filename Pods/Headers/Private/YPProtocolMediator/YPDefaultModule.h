@@ -1,0 +1,1 @@
+../../../../LocalPods/YPProtocolMediator/Classes/YPDefaultModule.h
